@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Bakery;
+    src: url(fonts/bakery.ttf);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+h1 {
+    font-family: Bakery, sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+p, li {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: .7rem;
+    line-height: 1.4rem;
+}
+
+section {
+    padding: 0 1rem;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    width: 50%;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+#purple {
+    background-color: #c47db1;
+}
+
+#green {
+    background-color: #d6e813;
+}
+
+#yellow {
+    background-color: #ffd022;
+}
+
+#blue {
+    background-color: #135a72;
+}
+
+main {
+    padding: 1rem;
+}
+
+button, img {
+    display: block;
+}
+.main-button {
+    background-color: #d6e813;
+    border-radius: .5rem;
+    color: #135a72;
+    font: 'Comfortaa', sans-serif bold 1rem;
+    width: 100%
+}
