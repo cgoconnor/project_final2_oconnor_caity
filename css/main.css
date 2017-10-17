@@ -8,13 +8,14 @@ img {
     width: 100%;
 }
 
-.logo {
+#logo {
     padding: 1rem;
 }
 
 h1 {
     font-family: Bakery, sans-serif;
     font-size: 3rem;
+    color: #394147;
 }
 
 h2 {
@@ -22,12 +23,14 @@ h2 {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2rem;
+    color: #394147;
 }
 
-p, li {
+p, li, a {
     font-family: 'Comfortaa', sans-serif;
-    font-size: .7rem;
+    font-size: 1rem;
     line-height: 1.4rem;
+    color: #135a72;
 }
 
 section {
@@ -45,6 +48,12 @@ li {
     width: 50%;
     margin: 1rem;
     font-weight: bold;
+}
+
+#adjectives li {
+    color: #135a72;
+    font-size: 1rem;
+    padding: .3rem;
 }
 
 #purple {
@@ -70,10 +79,94 @@ main {
 button, img {
     display: block;
 }
-.main-button {
+
+/*
+https://codepen.io/terkel/pen/dvejH
+*/
+
+button {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* END */
+
+button {
+    padding: 1rem .8rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+.main-button, .secondary-button {
     background-color: #d6e813;
-    border-radius: .5rem;
+    border-radius: .8rem;
     color: #135a72;
-    font: 'Comfortaa', sans-serif bold 1rem;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
     width: 100%
+    box-shadow: -.3rem -.3rem #135a72;
+        -webkit-box-shadow: -.3rem .3rem #135a72;
+    }
+
+.main-button:hover {
+    box-shadow: none;
+        -webkit-box-shadow: none;
+    transform: translate(-.3rem, .3rem);
+        -webkit-transform: translate(-.3rem, .3rem);
+}
+
+.secondary-button {
+    background-color: #135a72;
+    color: white;
+    box-shadow: none;
+        -webkit-box-shadow: none;
+}
+
+.secondary-button:hover {
+    transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+}
+
+a {
+    color: #c47db1;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'comfortaa', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 400px) {
+    #logo {
+        width: 60%;
+        margin: auto;
+    }
 }
