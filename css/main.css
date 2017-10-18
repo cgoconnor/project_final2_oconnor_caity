@@ -34,7 +34,7 @@ p, li, a {
 }
 
 section {
-    padding: 0 1rem;
+    padding: 1rem 0;
 }
 
 ul {
@@ -74,6 +74,7 @@ li {
 
 main {
     padding: 1rem;
+    display: flex;
 }
 
 button, img {
@@ -169,4 +170,23 @@ a:hover {
         width: 60%;
         margin: auto;
     }
+}
+
+@media (min-width: 800px) {
+    #logo {
+        width: 40%;
+    }
+
+    #fonts, #buttons-links {
+        float: left;
+        width: 50%;
+    }
+    #colors, #adjectives {
+        float: right;
+    }
+
+    main {
+        width: 90%;
+    }
+
 }
