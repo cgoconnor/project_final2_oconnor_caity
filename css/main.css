@@ -75,6 +75,8 @@ li {
 main {
     padding: 1rem;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 button, img {
@@ -178,15 +180,11 @@ a:hover {
     }
 
     #fonts, #buttons-links {
-        float: left;
         width: 50%;
     }
     #colors, #adjectives {
-        float: right;
-    }
-
-    main {
-        width: 90%;
+        width: 50%;
+        margin: auto;
     }
 
 }
