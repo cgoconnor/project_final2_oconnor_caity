@@ -99,6 +99,8 @@ header {
     color: #135a72;
     font-size: 1rem;
     padding: .3rem;
+    float: left;
+    width: 40%;
 }
 
 #purple {
@@ -226,8 +228,8 @@ a:hover {
 
 @media (min-width: 488px) {
     #adjectives ul li {
-        display: inline;
-        padding: 1rem;
+        display: inline-block;
+        padding: .5rem;
     }
 
     #imagery {
@@ -257,11 +259,13 @@ a:hover {
     }
     #adjectives li {
         color: white;
+        float: left;
+        width: 40%;
     }
 
     #colors, #buttons-links {
-        width: calc(50% - 6rem);
-        margin: 0 4rem 0 0;
+        width: calc(50% - 3rem);
+        margin: 0 0 0 1rem;
         float: right;
         padding-left: 2rem;
         border-top: none;
@@ -276,9 +280,24 @@ a:hover {
         background-color: #c0c0c0;
     }
 
+    #colors li {
+        width: 40%;
+        display: inline-block;
+        float: left;
+        margin: 1rem;
+    }
+
     #imagery {
         clear: both;
         padding-left: 2rem;
     }
+}
 
+@media (min-width: 1200px) {
+    #logo {
+        width: 25%;
+    }
+    #adjectives li {
+        width: 26%;
+    }
 }
