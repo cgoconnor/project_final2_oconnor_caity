@@ -1,5 +1,7 @@
 # Final Project Part 2
 ## Links
+* https://github.com/cgoconnor/project_final2_oconnor_caity
+* http://caitygoconnor.com/pproject_final2_oconnor_caity
 *
 ## Resources
 *
