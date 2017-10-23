@@ -18,6 +18,7 @@ img {
     width: calc(100% - 2rem);
     margin: auto;
     padding: 1rem;
+    max-width: 300px;
 }
 
 h1 {
@@ -191,6 +192,13 @@ a:hover {
     #logo {
         width: 60%;
         margin: auto;
+    }
+}
+
+@media (min-width: 488px) {
+    #adjectives ul li {
+        display: inline;
+        padding: 1rem;
     }
 }
 
