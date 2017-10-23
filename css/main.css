@@ -3,6 +3,27 @@
     src: url(fonts/bakery.ttf);
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
 img {
     display: block;
     width: 100%;
@@ -219,6 +240,7 @@ a:hover {
 
     #fonts, #buttons-links {
         width: 50%;
+        float: left
     }
     #colors, #adjectives {
         width: calc(50% - 2rem);
@@ -231,5 +253,8 @@ a:hover {
         padding-left: 2rem;
     }
 
+    #imagery {
+        clear: both;
+    }
 
 }
