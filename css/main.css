@@ -65,6 +65,11 @@ li {
     width: 100%;
 }
 
+.description {
+    padding-bottom: 1rem;
+    border-bottom: 1px #87898d dashed;
+}
+
 #adjectives li {
     color: #135a72;
     font-size: 1rem;
