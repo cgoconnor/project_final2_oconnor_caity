@@ -10,12 +10,21 @@ img {
 
 #logo {
     padding: 1rem;
+    width: calc(100% - 2rem);
+    margin: auto;
+}
+
+.texture {
+    width: calc(100% - 2rem);
+    margin: auto;
+    padding: 1rem;
 }
 
 h1 {
     font-family: Bakery, sans-serif;
     font-size: 3rem;
     color: #394147;
+    margin: 0;
 }
 
 h2 {
@@ -24,6 +33,7 @@ h2 {
     font-weight: bold;
     line-height: 2rem;
     color: #394147;
+    margin: 0;
 }
 
 p, li, a {
@@ -48,6 +58,11 @@ li {
     width: 50%;
     margin: 1rem;
     font-weight: bold;
+}
+
+#fonts, #colors, #buttons-links, #adjectives, #imagery {
+    border-top: 1px #87898d solid;
+    width: 100%;
 }
 
 #adjectives li {
