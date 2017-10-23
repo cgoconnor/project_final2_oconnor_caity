@@ -61,7 +61,11 @@ li {
     font-weight: bold;
 }
 
-#fonts, #colors, #buttons-links, #adjectives, #imagery {
+header {
+    border-bottom: 1px #87898d solid;
+}
+
+#colors, #buttons-links, #adjectives, #imagery {
     border-top: 1px #87898d solid;
     width: 100%;
 }
