@@ -13,6 +13,10 @@ html {
     box-sizing: inherit;
 }
 
+.no-show {
+    display: none;
+}
+
 .clearfix::before,
 .clearfix::after {
     content: " "; /* 1 */
@@ -41,14 +45,14 @@ img {
     max-width: 300px;
 }
 
-h1 {
+h1, .h1 {
     font-family: Bakery, sans-serif;
     font-size: 3rem;
     color: #394147;
     margin: 0;
 }
 
-h2 {
+h2, .h2 {
     font-family: 'Comfortaa', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
