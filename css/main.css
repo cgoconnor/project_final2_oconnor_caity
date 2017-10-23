@@ -178,9 +178,9 @@ button {
 }
 
 .main-button, .secondary-button {
-    background-color: #d6e813;
+    background-color: #c47db1;
     border-radius: .8rem;
-    color: #135a72;
+    color: #ffffff;
     font-family: 'Comfortaa', sans-serif;
     font-weight: bold;
     font-size: 1rem;
