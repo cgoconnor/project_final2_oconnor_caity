@@ -228,7 +228,7 @@ a:hover {
 
     #imagery img {
         display: inline;
-        width: calc((100% - 12rem) / 3);
+        width: calc((100% - 2rem) / 3);
     }
 }
 
@@ -238,8 +238,17 @@ a:hover {
     }
 
     #fonts, #adjectives {
-        width: 50%;
         float: left;
+        width: calc(50% - 4rem);
+        padding-left: 2rem;
+    }
+
+    #adjectives ul {
+        padding: 2rem 1rem;
+        background-color: #c47db1;
+    }
+    #adjectives li {
+        color: white;
     }
 
     #colors, #buttons-links {
@@ -251,10 +260,12 @@ a:hover {
 
     #colors {
         border-top: none;
+        background-color: #c0c0c0;
     }
 
     #imagery {
         clear: both;
+        padding-left: 2rem;
     }
 
 }
