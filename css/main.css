@@ -117,6 +117,14 @@ header {
     background-color: #135a72;
 }
 
+#dark-gray {
+    background-color: #394147;
+}
+
+#light-gray {
+    background-color: #c0c0c0;
+}
+
 main {
     padding: 1rem;
 }
@@ -239,7 +247,7 @@ a:hover {
 
     #fonts, #adjectives {
         float: left;
-        width: calc(50% - 4rem);
+        width: calc(50% - 2rem);
         padding-left: 2rem;
     }
 
@@ -252,10 +260,15 @@ a:hover {
     }
 
     #colors, #buttons-links {
-        width: calc(50% - 8rem);
+        width: calc(50% - 6rem);
         margin: 0 4rem 0 0;
         float: right;
         padding-left: 2rem;
+        border-top: none;
+    }
+
+    #buttons-links {
+        padding-top: 4rem;
     }
 
     #colors {
